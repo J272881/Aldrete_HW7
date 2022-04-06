@@ -33,17 +33,17 @@ const houses = [
 };
 
 
-const OptionElement = (text, value) => {
+const OptionElement = (t, v) => {
     const element = document.createElement("option");
-    element.textContent = text;
-    element.value = value;
+    element.textContent = t;
+    element.value = v;
     return element;
   };
   
 
-  const LiElement = text => {
+  const LiElement = t => {
     const element = document.createElement("li");
-    element.textContent = text;
+    element.textContent = t;
     return element;
   };
   
